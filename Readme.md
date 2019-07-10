@@ -4,7 +4,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/borko-rajkovic/Prodavac">
-    <img src="./Prodavac_Icon1.ico" alt="Logo" width="80" height="80">
+    <img src="./Resources/Pictures/Prodavac_Icon1.ico" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Prodavac</h3>
