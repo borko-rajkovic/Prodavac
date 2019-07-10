@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<TfrxReport Version="4.11.17" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="41974,9834604861" ReportOptions.Description.Text="" ReportOptions.LastChange="42219,8234167477" ScriptLanguage="PascalScript" ScriptText.Text="&#13;&#10;begin&#13;&#10;&#13;&#10;end." PropData="044C65667403A00103546F7003A8000844617461736574730101064920446174615365743D22646D2E66727844425072697A6E616E6963615374616D7061322220446174615365744E616D653D2266727844425072697A6E616E6963615374616D706132220000095661726961626C65730100055374796C650100">
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page2" Orientation="poLandscape" PaperWidth="120" PaperHeight="100" PaperSize="256" LeftMargin="10" RightMargin="10" TopMargin="0" BottomMargin="0" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="132,28355&#13;&#10;188,9765&#13;&#10;264,5671&#13;&#10;321,26005&#13;&#10;226,7718" VGuides.Text="22,67718&#13;&#10;226,7718&#13;&#10;188,9765&#13;&#10;158,74026">
+    <TfrxHeader Name="Header1" Height="461,10266" Left="0" Top="18,89765" Width="377,953">
+      <TfrxMemoView Name="Memo3" Left="22,67718" Top="94,48825" Width="64,25201" Height="18,89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="Datum"/>
+      <TfrxMemoView Name="Memo1" Left="226,7718" Top="94,48825" Width="102,04731" Height="18,89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="Serijski broj"/>
+      <TfrxMemoView Name="Memo2" Left="52,91342" Top="151,1812" Width="257,00804" Height="18,89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="Prezime i ime kupca"/>
+      <TfrxMemoView Name="Memo4" Left="158,51979" Top="226,7718" Width="121,16543" Height="18,89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="Iznos uplate"/>
+      <TfrxMemoView Name="Memo5" Left="158,51979" Top="283,46475" Width="121,16543" Height="18,89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="Preostali dug"/>
+      <TfrxMemoView Name="Memo6" Left="188,9765" Top="188,9765" Width="64,25201" Height="18,89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="ID kupca"/>
+      <TfrxMemoView Name="frxDBPriznanicaStampa2Ime" Left="177,63791" Top="151,1812" Width="400,63018" Height="18,89765" ShowHint="False" DataField="Ime" DataSet="dm.frxDBPriznanicaStampa2" DataSetName="frxDBPriznanicaStampa2" Text="[frxDBPriznanicaStampa2.&#34;Ime&#34;]"/>
+    </TfrxHeader>
+    <TfrxMasterData Name="MasterData1" Height="22,67718" Left="0" Top="502,67749" Width="377,953" ColumnWidth="0" ColumnGap="0" DataSet="dm.frxDBPriznanicaStampa2" DataSetName="frxDBPriznanicaStampa2" RowCount="0"/>
+  </TfrxReportPage>
+</TfrxReport>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.388,=C:\Users\HP\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.632,=C:\Users\HP\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.834,=C:\Users\HP\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.786,C:\Users\HP\Documents\RAD Studio\Projects\Kljuc.pas=C:\Users\HP\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.162,C:\Users\HP\Documents\RAD Studio\Projects\Keygen.dproj=C:\Users\HP\Documents\RAD Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.786,C:\Users\HP\Documents\RAD Studio\Projects\Kljuc.dfm=C:\Users\HP\Documents\RAD Studio\Projects\Unit1.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

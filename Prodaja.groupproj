@@ -1,0 +1,48 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{8F9C4384-BD4C-44C9-90D1-1952E44F40F4}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="Prodavac.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Keygen.dproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="Prodavac">
+			<MSBuild Projects="Prodavac.dproj"/>
+		</Target>
+		<Target Name="Prodavac:Clean">
+			<MSBuild Projects="Prodavac.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="Prodavac:Make">
+			<MSBuild Projects="Prodavac.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="Keygen">
+			<MSBuild Projects="Keygen.dproj"/>
+		</Target>
+		<Target Name="Keygen:Clean">
+			<MSBuild Projects="Keygen.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="Keygen:Make">
+			<MSBuild Projects="Keygen.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="Prodavac;Keygen"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="Prodavac:Clean;Keygen:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="Prodavac:Make;Keygen:Make"/>
+		</Target>
+		<Import Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')" Project="$(BDS)\Bin\CodeGear.Group.Targets"/>
+	</Project>
